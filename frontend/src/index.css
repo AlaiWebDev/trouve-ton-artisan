@@ -1,0 +1,26 @@
+:root {
+    --main-text-color: #00497c;
+    --main-border-color: #0074c7;
+    --light-bkg-color: #f1f8fc;
+    --dark-color: #384050;
+    --red-color: #cd2c2e;
+    --green-color: #82b864;
+}
+
+@font-face {
+    font-family: "Graphik";
+    src: url('./assets/fonts/graphik/Graphik-Regular-Trial.otf') format("opentype");
+}
+@font-face {
+    font-family: "Graphik";
+    src: url('./assets/fonts/graphik/Graphik-Bold-Trial.otf') format("opentype");
+    font-weight: bold;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Graphik";
+}
+
